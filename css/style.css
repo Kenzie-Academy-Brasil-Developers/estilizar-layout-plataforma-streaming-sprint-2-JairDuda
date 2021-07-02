@@ -16,24 +16,172 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /* VARIÁVEIS */
 :root{
+	--largura: 100%;
   
 }
 
 /*BODY*/
 	body{
-
+		/* margin: 0 auto;
+		padding: 0; */
+		background-color: #141414;
+		color: white;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family: "Helvetica Neue";
 	}
 
 /*TOPO*/
-	header.topo{
-		
+	header.topo {
+		width: var(--largura);
+		display: flex;
+		/* flex-direction: row; */
+		/* align-items: center; */
+		justify-content: flex-start;
 	}
+
+	#imgTopo{
+		width: 100px;
+	}
+
+	img{
+		width: 186px;
+		margin-bottom: 0;
+	}
+	.topo > figure {
+		width: 100%;
+		display: flex;
+		/* flex-wrap: wrap; */
+		padding-left: 10px;
+		margin: 10px;
+		/* align-items: center; */
+		/* justify-content: flex-start; */
+		flex-direction: column;
+	}
+	
+	
+	
+	
+		
 
 /*RODAPÉ*/
 	
 
 /*PÁGINA INICIAL*/
-	div.pg-home{
+	section{
+		width: var(--largura);
+		display: flex;
+		flex-direction: column;
+		text-align: center;
 		
 	}
+	/* div.pg-home{
+		margin: 0 auto;
+		width: var(--largura);
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		text-align: center;
+		align-items: flex-start;
+		
+	} */
 
+	
+
+	ul {
+		margin: 0 ;
+		padding: 0px;
+		display: flex;
+		/* justify-content: center; */
+		align-items: center;
+		/* flex-wrap: wrap; */
+		flex-direction: column;
+		/* text-align: center; */
+	}
+	  li{
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	  }
+
+	  figcaption{
+		  display: none;
+	  }
+
+	  .footer__btn:hover{
+		  background-color: tomato;
+	  }
+
+	  .footer__btn{
+		  margin-bottom: 15px;
+		  border-radius: 5px;
+		  padding: 5px;
+		  border: none;
+	  }
+
+	  li img:hover{
+		border: 1px solid gray;
+	}
+
+	  @media (min-width: 768px) { 
+
+		header.topo {
+			width: var(--largura);
+			display: flex;
+			height: 200px;
+			/* flex-direction: row; */
+			/* align-items: center; */
+			justify-content: flex-start;
+		}
+		
+
+			.bg-home{
+				
+				display: flex;
+				width: 858px;
+				justify-content: center;
+				align-items: center;
+				
+			}
+
+			
+
+			ul {
+				
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: row;
+				
+				
+			}
+			h2{
+				font-size: 48px;
+			}
+
+			
+	  
+			.footer__btn{
+				margin-top: 50px;
+				margin-bottom: 15px;
+				border-radius: 0;
+				width: 150px;
+				height: 30px;
+				font-family: "Helvetica Neue";
+				border: 1px solid gray;
+				text-align: center;
+				background-color: transparent;
+				text-transform: uppercase;
+				color: gray;
+			}
+			.footer__btn:hover{
+				background-color: tomato;
+			}
+
+			li img:hover{
+				border: 1px solid gray;
+			}
+	}
+	  
+
+	  
