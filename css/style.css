@@ -221,8 +221,6 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 					flex-direction: row;
 					align-items: center;
 					justify-content: center;
-					
-					
 					list-style: none;
 				}
 
@@ -246,7 +244,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 					width: 150px;
 					height: 30px;
 					font-family: "Helvetica Neue";
-					border: 1px solid gray;
+					
 					text-align: center;
 					background-color: transparent;
 					text-transform: uppercase;
@@ -254,8 +252,12 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 					
 				}
 
+				.footer__btn:hover{
+					box-shadow: 1px 1px 1px 1px rgb(245, 236, 236, 0.4);
+				}
+
 				li img:hover{
-					border: 1px solid gray;
+					box-shadow: 1px 1px 1px 1px rgb(245, 236, 236, 0.4);
 					cursor: pointer;
 				}
 			}
