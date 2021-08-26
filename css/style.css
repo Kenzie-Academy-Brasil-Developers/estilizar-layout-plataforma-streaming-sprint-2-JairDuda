@@ -33,7 +33,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 	body{
 		
-		background-color: #141414;
+		background-color: #00002e;
 		color: white;
 		font-family: "Helvetica Neue";
 	}
@@ -101,7 +101,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		
 
 		ul{
-			background-color: #141414;
+			background-color: #00002e;
 			width: 858px;
 			height: var(--largura);
 			padding: 0;
@@ -110,6 +110,8 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 			justify-content: space-evenly;
 			margin: 0;
 			clear: both;
+
+			
 		
 		  }
 
@@ -198,10 +200,8 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 				
 			}
 			ul{
-				background-color: #141414;
-				width: var(--largura);
+				
 				margin: 20px;
-				padding: 0;
 				display: flex;
 				flex-direction: row;
 				align-items: center;
@@ -216,11 +216,12 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 			}
 
 			.pg-home{
-				margin: 0 auto;
+				/* margin: 0 auto;
 				display: flex;
 				align-items: center;
-				justify-content: center;
+				justify-content: center; */
 				margin-top: 50px;
+				margin: 0 auto;
 			}
 			
 		
@@ -251,15 +252,17 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 			} 
 
 			.container{
-				width: var(--largura);
+				/* width: var(--largura);
 				
-				padding: 0;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
+				padding: 0; */
+				/* display: flex; */
+				/* flex-direction: column;
+				align-items: center; */
 				text-align: center;
-				justify-content: center;
-				margin: 0 auto;
+				/* justify-content: center; */
+				margin-top: 100px;
+				padding-right: 20px;
+    			
 				
 				}
 				
@@ -305,12 +308,25 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 				.container{
 
-					width: 858px;
-					display: flex;
-					justify-content: center;
-					align-items: center;
+				/* width: var(--largura);
+				padding: 0; */
+				display: flex; 
+				flex-direction: column;
+				align-items: center;
+				/* text-align: center;
+				justify-content: center;
+				margin: 0 auto; */
 					
 				}
+
+				/* width: var(--largura);
+				padding: 0;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				text-align: center;
+				justify-content: center;
+				margin: 0 auto; */
 
 				ul{
 					width: 858px;
